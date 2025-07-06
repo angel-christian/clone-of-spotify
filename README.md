@@ -1,8 +1,12 @@
-## 🎵 Spotify Clone – HTML &amp; CSS Only
-A frontend recreation of the Spotify Web Player UI, built using just HTML and vanilla CSS.
-This clone focuses purely on layout and visual fidelity — with no JavaScript or frameworks used.
+# 🎧 Spotify Clone – HTML & CSS Only
 
-# 🚀 Demo
+A frontend recreation of the Spotify Web Player UI built using only HTML and vanilla CSS.
+
+## 🌐 Live Demo
+
+👉 [angel-christian.github.io/clone-of-spotify](https://angel-christian.github.io/clone-of-spotify/)
+
+# 🚀 Video Demo
 Check out a quick walkthrough video here 👉
 
 # 🛠 Features
