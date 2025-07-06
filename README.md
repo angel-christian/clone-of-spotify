@@ -54,11 +54,13 @@ Not fully responsive for mobile — desktop-first design
 
 # 🙋‍♂️ About Me
 Angel Christian
+
 Computer Engineering Student @ Vishwakarma Government Engineering College
 
 “The best is yet to come.”
 
 Connect with me on LinkedIn 👉 https://www.linkedin.com/in/angel-christian-128l106/
+
 Let’s build and learn together!
 
 # 📜 License
