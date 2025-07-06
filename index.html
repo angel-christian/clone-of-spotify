@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="sidebar">
+
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                    <img src="./Assets/library_icon.png" alt="lib">
+                    <a href="#">Your Library</a>
+                    </div>
+                    <div class="lib-icons">
+                        <button class="arrows"><i class="fa-solid fa-plus"></i></button>
+                        <button class="arrows"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content vert-scroll">
+
+                <div class="sticky-nav">
+                    <div class="sticky-arrows">
+                        <button class="arrows"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="arrows hide"><i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                    
+                    <div class="sticky-badges">
+                        <button class="badge hide">Explore Premium</button>
+                        <button class="badge bgc" style="background-color: black; color: white;"><i class="fa-regular fa-circle-down" style="color: white;margin-right: 0.5rem;"></i>Install App</button>
+                        <button class="arrows"><i class="fa-regular fa-user"></i></button>
+                    </div>
+                    
+                </div>
+                
+                <h2>Recently Played</h2>
+                <div class="album-container">
+                    <div class="card">
+                        <img src="./Assets/Line Without a Hook_track_cover.jpg" alt="lnwk">
+                        <p class="box-p1">Line Without a Hook</p>
+                        <p class="box-p2">Ricky Montgomery</p>
+                    </div>
+                </div>
+
+                <h2>Trending Songs Near You</h2>
+                <div class="album-container">
+                    <div class="card">
+                        <img src="./Assets/Aashiqui 2_album_cover.jpg" alt="asq2">
+                        <p class="box-p1">Tum Hi Ho</p>
+                        <p class="box-p2">Mithoon</p>
+                        <p class="box-p2">Arijit Singh</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Jab We Met_album_cover.jpg" alt="jwm">
+                        <p class="box-p1">Tum Se Hi</p>
+                        <p class="box-p2">Pritam</p>
+                        <p class="box-p2">Mohit Chauhan</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Yeh Jawaani Hai Deewani_album_cover.jpg" alt="Kbr">
+                        <p class="box-p1">Kabira</p>
+                        <p class="box-p2">Pritam</p>
+                        <p class="box-p2">Tochi Raina</p>
+                        <p class="box-p2">Rekha Bhardwaj</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Sanam Teri Kasam (Original Motion Picture Soundtrack)_album_cover.jpg" alt="snm">
+                        <p class="box-p1">Sanam Teri Kasam</p>
+                        <p class="box-p2">Himesh Reshammiya</p>
+                        <p class="box-p2">Ankit Tiwari</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Glory_album_cover.jpg" alt="yo">
+                        <p class="box-p1">Glory</p>
+                        <p class="box-p2">Yo Yo Honey Singh</p>
+                    </div>
+                </div>
+                
+                <h2>Popular Artist</h2>
+                <div class="album-container round">
+                    <div class="card">
+                        <img src="./Assets/A.R. Rahman_artist_cover.jpg" alt="ar">
+                        <p class="box-p1">A.R. Rahman</p>
+                        <p class="box-p2">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Arijit Singh_artist_cover.jpg" alt="aj">
+                        <p class="box-p1">Arijit Singh</p>
+                        <p class="box-p2">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Atif Aslam_artist_cover.jpg" alt="aa">
+                        <p class="box-p1">Atif Aslam</p>
+                        <p class="box-p2">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Pritam_artist_cover.jpg" alt="ptm">
+                        <p class="box-p1">Pritam</p>
+                        <p class="box-p2">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/Vishal-Shekhar_artist_cover.jpg" alt="vs">
+                        <p class="box-p1">Vishal-Shekhar</p>
+                        <p class="box-p2">Artist</p>
+                    </div>
+                </div>
+                
+                <h2>Featured Charts</h2>
+                <div class="album-container">
+                    <div class="card">
+                        <img src="./Assets/card1img.jpeg" alt="global">
+                        <p class="box-p1">Top 50-Global</p>
+                        <p class="box-p2">Your daily update of your most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card6img.jpeg" alt="">
+                        <p class="box-p1">Top Songs-India</p>
+                        <p class="box-p2">Your weekly update of your most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assets/card5img.jpeg" alt="">
+                        <p class="box-p1">Top Songs-Global</p>
+                        <p class="box-p2">Your weekly update of your most played...</p>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+                
+                <div class="copy">
+                    <div class="box-p1" style="opacity: 0.8;">&copy; 2025 Spotify AB</div>
+                </div>
+
+        </div>
+            
+        <div class="music-player">
+
+                <div class="song">
+                    <div class="song-option">
+                        <img src="./Assets/Line Without a Hook_track_cover.jpg" class="song-card" alt="lnwk">
+                    </div>
+                    <div class="song-artist">
+                        <h3 class="song-name und">Line Without a Hook</h3>
+                        <p class="artist-name und">Ricky Montgomery</p>
+                    </div>
+                    <div class="tab-icon">
+                        <i class="fa-regular fa-heart s-icon exp"></i>
+                        <i class="fa-solid fa-expand s-icon exp"></i>
+                    </div>
+                </div>
+
+                <div class="player">
+                    <div class="player-controls">
+                        <img src="./Assets/player_icon1.png" alt="1" class="player-icon">
+                        <img src="./Assets/player_icon2.png" alt="2" class="player-icon">
+                        <img src="./Assets/player_icon3.png" alt="3" class="player-icon" style="opacity: 1; height: 2rem;">
+                        <img src="./Assets/player_icon4.png" alt="4" class="player-icon">
+                        <img src="./Assets/player_icon5.png" alt="5" class="player-icon">
+                    </div>
+                    <div class="playback-bar">
+                        <span class="beg-time">02:04</span>
+                        <input type="range" min="0" max="100" step="1" class="progress-bar">
+                        <span class="end-time">04:09</span>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="control-icons">
+                        <i class="fa-solid fa-circle-play ic"></i>
+                        <i class="fa-solid fa-record-vinyl ic"></i>
+                        <i class="fa-solid fa-bars-staggered ic"></i>
+                        <i class="fa-solid fa-computer ic"></i>
+                        <i class="fa-solid fa-volume-low ic"></i>
+                        <input type="range" class="slider hide" min="0" max="100" value="50">
+                        <i class="fa-solid fa-up-right-from-square ic"></i>
+                        <i class="fa-solid fa-expand ic"></i>
+                    </div>
+
+                </div>
+
+        </div>
+        
+    </div>
+        
+    </body>
+</html>
